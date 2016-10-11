@@ -25,8 +25,8 @@ class Order extends React.Component {
                     component="span"
                     className="count"
                     transitionName="count"
-                    transistionEnterTimeout={250}
-                    transistionLeaveTimeout={250}>
+                    transitionEnterTimeout={250}
+                    transitionLeaveTimeout={250}>
                         <span key={count}>{count}</span>
                     </CSSTransitionGroup>
                     lbs
@@ -58,8 +58,8 @@ class Order extends React.Component {
                     className="order"
                     component="ul"
                     transitionName="order"
-                    transistionEnterTimeout={500}
-                    transistionLeaveTimeout={500}
+                    transitionEnterTimeout={500}
+                    transitionLeaveTimeout={500}
                 >
                     {orderIds.map(this.renderOrder)}
                     <li className="total">
