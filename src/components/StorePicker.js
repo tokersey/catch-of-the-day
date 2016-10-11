@@ -3,12 +3,6 @@ import { getFunName } from '../helpers';
 
 
 class StorePicker extends React.Component {
-    // constructor() {
-        //this is the same as the onSubmit function
-    //     super();
-    //     this.goToStore = this.goToStore.bind(this);
-    // }
-
     goToStore(e){
         e.preventDefault();
 
